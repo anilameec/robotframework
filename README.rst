@@ -11,12 +11,11 @@ Introduction
 automation framework for acceptance testing, acceptance test driven
 development (ATDD), and robotic process automation (RPA). It has simple plain
 text syntax and it can be extended easily with libraries implemented using
-Python or Java.
+Python.
 
 Robot Framework is operating system and application independent. The core
-framework is implemented using `Python <http://python.org>`_, supports both
-Python 2.7 and Python 3.5+, and runs also on `Jython <http://jython.org>`_ (JVM),
-`IronPython <http://ironpython.net>`_ (.NET) and `PyPy <http://pypy.org>`_.
+framework is implemented using `Python <http://python.org>`_, supports
+Python 3.5+ and runs also with `PyPy <http://pypy.org>`_.
 The framework has a rich ecosystem around it consisting of various generic
 libraries and tools that are developed as separate projects. For more
 information about Robot Framework and the ecosystem, see
@@ -24,15 +23,13 @@ http://robotframework.org.
 
 Robot Framework project is hosted on GitHub_ where you can find source code,
 an issue tracker, and some further documentation. See `<CONTRIBUTING.rst>`__
-if you are interested to contribute. Downloads are hosted on PyPI_, except
-for the standalone JAR distribution that is on `Maven central`_.
+if you are interested to contribute. Downloads are hosted on PyPI_.
 
 Robot Framework development is sponsored by `Robot Framework Foundation
 <http://robotframework.org/foundation>`_.
 
 .. _GitHub: https://github.com/robotframework/robotframework
 .. _PyPI: https://pypi.python.org/pypi/robotframework
-.. _Maven central: http://search.maven.org/#search%7Cga%7C1%7Ca%3Arobotframework
 
 .. image:: https://img.shields.io/pypi/v/robotframework.svg?label=version
    :target: https://pypi.python.org/pypi/robotframework
@@ -57,7 +54,7 @@ from GitHub_. After that you can install the framework with::
     python setup.py install
 
 For more detailed installation instructions, including installing Python,
-Jython, IronPython and PyPy or installing from git, see `<INSTALL.rst>`__.
+and PyPy or installing from git, see `<INSTALL.rst>`__.
 
 Example
 -------
@@ -88,8 +85,7 @@ Usage
 -----
 
 Tests (or tasks) are executed from the command line using the ``robot``
-command or by executing the ``robot`` module directly like ``python -m robot``
-or ``jython -m robot``.
+command or by executing the ``robot`` module directly like ``python -m robot``.
 
 The basic usage is giving a path to a test (or task) file or directory as an
 argument with possible command line options before the path::
